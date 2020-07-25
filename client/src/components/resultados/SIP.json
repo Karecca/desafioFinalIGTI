@@ -1,0 +1,80 @@
+sip[
+  {
+    "vic01": [
+      {
+        "configuracao": {
+          "cidade": "Ponte Nova",
+          "inicio": "2020-07-20",
+          "fim": "2020-08-05",
+          "gerente": "Daniel Ferreira",
+          "foiIniciada": "False",
+          "foiFinalizada": "False"
+        },
+        "perguntas": [
+          {
+            "id": "01",
+            "ordem": "01",
+            "enunciado": "Você volta nessa cidade?",
+            "tipoPergunta": "fechada",
+            "opcoes": [
+              {
+                "ordem": "01",
+                "opcao": "Sim"
+              },
+              {
+                "ordem": "02",
+                "opcao": "Não"
+              }
+            ]
+          },
+          {
+            "id": "02",
+            "ordem": "02",
+            "enunciado": "Qual religião você se identifica ou professa?",
+            "tipoPergunta": "aberta"
+          },
+          {
+            "id": "03",
+            "ordem": "03",
+            "enunciado": "Como você avalia o trabalho da administração atual?",
+            "tipoPergunta": "fechada",
+            "opcoes": [
+              {
+                "ordem": "01",
+                "opcao": "Ótima"
+              },
+              {
+                "ordem": "02",
+                "opcao": "Boa"
+              },
+              {
+                "ordem": "03",
+                "opcao": "Regular"
+              },
+              {
+                "ordem": "04",
+                "opcao": "Péssima"
+              }
+            ]
+          }
+        ],
+        "respostas": [
+          {
+            "id": "218548sd654sd3f18574sf456",
+            "entrevistador": "Guilherme Peppe",
+            "data": "2020-07-20",
+            "geoPosicionamento": {
+              "latitude": "21.6542152464",
+              "longitude": "47.8975241654"
+            },
+            "resultado": {
+              "01": "Sim",
+              "02": "Católico",
+              "03": "Regular"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
