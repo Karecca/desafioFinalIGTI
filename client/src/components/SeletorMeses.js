@@ -11,6 +11,12 @@ export default function SeletorMeses({ newPeriodo, onChangePeriod }) {
 
   useEffect(() => {
     setPeriodo(newPeriodo);
+    newPeriodo === '2019-01'
+      ? (document.getElementById('btnDecPeriodo').disabled = true)
+      : (document.getElementById('btnDecPeriodo').disabled = false);
+    newPeriodo === '2021-12'
+      ? (document.getElementById('btnIncPeriodo').disabled = true)
+      : (document.getElementById('btnIncPeriodo').disabled = false);
   }, [newPeriodo]);
 
   useEffect(() => {
@@ -34,6 +40,7 @@ export default function SeletorMeses({ newPeriodo, onChangePeriod }) {
           style={styles.button}
           className="waves-effect waves-light btn"
           onClick={decPeriod}
+          id="btnDecPeriodo"
         >
           &lt;
         </button>
@@ -156,6 +163,7 @@ export default function SeletorMeses({ newPeriodo, onChangePeriod }) {
         <button
           style={styles.button}
           className="waves-effect waves-light btn"
+          id="btnIncPeriodo"
           onClick={incPeriod}
         >
           >
